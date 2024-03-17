@@ -67,3 +67,4 @@ vagrant@kernel-update:~$ uname -r
 vagrant@kernel-update:~$ uname -r 
 6.5.0-060500-generic
 ```
+&emsp; Для бокса ubuntu/jammy64 версии 20240301.0.0 после установки нового ядра манипуляции по восстановлению VirtualBox Shared Folders не потребовались. Указанный ресурс сохранил свою доступность и работоспособность.
