@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
             box.vm.box_version = boxconfig[:box_version]
             box.vm.host_name = boxname.to_s;
             box.vm.provider "virtualbox" do |v|
-	            v.memory = boxconfig[:memory]
+	        v.memory = boxconfig[:memory]
                 v.cpus = boxconfig[:cpus]
             end
         end    
